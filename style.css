@@ -1,0 +1,279 @@
+/*
+##########################
+#      Generale
+##########################
+*/
+body {
+  font: 400 16px/1.5 Roboto, Arial, sans-serif;
+  color: #212121;
+  word-wrap: break-word;
+  background-color: #e5e5e5;
+  margin: 0;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 16px;
+}
+
+/*effetto pagina in levitazione*/
+.raisedbox {
+    border: 1px solid #cccccc;
+    box-shadow:  -1px 1px #cccccc,
+         -2px 2px #cccccc,
+         -3px 3px #cccccc,
+         -4px 4px #cccccc,
+         -5px 5px #cccccc;
+}
+
+.home {
+  width:1032px;
+  height: 1760px;
+  margin:0 auto;
+  background-color: white;
+}
+
+/*
+##########################
+#      Topbar
+##########################
+*/
+
+.top-title {
+  height: 139px;
+  width: 100%;
+  display: block;
+  padding: 23px;
+}
+
+#top-title-logo {
+  height: 96px;
+  width: 96px;
+  float:left;
+}
+
+
+h1 {
+  font-size: 42px;
+  color: #757575;
+  width: 180px;
+  float: left;
+  margin-left: 27px;
+  margin-top: 15px;
+}
+
+.navbar {
+  height: 48px;
+  width: 1032px;
+  background-color: #1976d2;
+  margin-top: -48px;
+}
+
+.navbar-list {
+  list-style: none;
+  margin: 0;
+  padding-left: 0px;
+  height: 48px;
+  font-size: 80%;
+}
+
+.navbar-list li a {
+  display: block;
+  float: left;
+  padding: 11px;
+  text-decoration: none;
+  font-weight: bolder;
+  color: white;
+  margin-top: 4px;
+  margin-left: 1px;
+  transition: background-color .5s;
+}
+
+.navbar a:hover {
+  background-color: #a4ccf4;
+}
+
+/*
+##########################
+#  Parte Centrale col.1
+##########################
+*/
+
+.article-area {
+  width: 65%;
+  float: left;
+}
+
+.article-area h1 {
+  width: 100%;
+  font-weight: 400;
+}
+
+.article-area p {
+  float: left;
+  margin-left:25px;
+  margin-top: -7px;
+  padding: 8px;
+}
+
+.article-area a {
+  text-decoration: none;
+  color: #1976d2;
+  float: left;
+}
+
+.download_and_screenshot {
+  display: flex;
+  flex-wrap: wrap;
+  height: 645px;
+  width: 712px;
+}
+
+.download-button {
+  border-radius: 2%;
+  text-align: center;
+  background-color: #1976d2;
+  color: white;
+  margin-left: 55px;
+  margin-top: 10px;
+  padding:15px;
+  font-weight: 600;
+  transition: opacity .3s;
+}
+
+.download-button:hover {
+  opacity: 0.6;
+}
+
+
+.pgp {
+  display:inline-block;
+  height: 26px;
+  width: 110px;
+  margin-left: 85px;
+  transition: opacity .3s;
+}
+
+.pgp a:hover {
+  opacity: 0.6;
+}
+
+.qr-code {
+  height: 200px;
+  width: 200px;
+  margin-left: 37px;
+}
+
+.screenshot {
+  display: block;
+  width: 348px;
+  height: 709px;
+  float: left;
+  margin-left: 30px;
+}
+
+/*
+##################################
+#  Parte Centrale col.2 - sidebar
+##################################
+*/
+
+.sidebar {
+  width: 35%;
+  height: 1587px;
+  float: left;
+  margin-top: 30px;
+}
+
+.lang-selector-div {
+  text-align: right;
+  margin-right: 5px;
+}
+
+.find-app {
+  margin-top: 45px;
+  padding-bottom: 30px;
+}
+
+.find-app input {
+  width: 87%;
+  height: 35px;
+  border-radius: 4px;
+  border: solid 1px #aaa;
+  font-size: 1.1em;
+  box-sizing: border-box;
+}
+
+.search-button {
+  width: 100px;
+  border-radius: 2%;
+  text-align: center;
+  background-color: #1976d2;
+  color: white;
+  padding:15px;
+  font-weight: 600;
+  transition: opacity .3s;
+}
+
+.search-button:hover {
+  opacity: 0.6;
+}
+
+.bank_transfer_list {
+  text-decoration: none;
+  list-style: none;
+  text-align: left;
+  padding-left: 0;
+  margin-top: -5px;
+  padding-bottom: 30px;
+}
+
+.news_list a {
+  text-decoration: none;
+  color:  #1976d2;
+}
+
+.last_updated {
+  padding-bottom: 30px;
+}
+
+.last_updated a {
+  text-decoration: none;
+  color: black;
+  transition: opacity .3s;
+}
+
+.last_updated a:hover {
+  opacity: 0.6;
+}
+
+.package_icon {
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin-right: 10px;
+  margin-top: 6px;
+}
+
+.package_desc {
+  color: #757575;
+  margin-top: -25px;
+}
+
+.package_name {
+  margin-bottom: 22px;
+  font-size: larger;
+}
+
+.package_info {
+  width: 290px;
+  margin-left: 15px;
+}

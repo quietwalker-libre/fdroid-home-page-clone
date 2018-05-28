@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>F-Droid</title>
+  <link rel="icon" href="./images/favicon.png" sizes="16x16" type="image/png">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+  <div class="home raisedbox">
+    <div class="top-title">
+      <img id="top-title-logo" src="./images/fdroid-logo.svg" alt="fdroid_logo">
+      <h1 id"top-title-text">F-Droid</h1>
+    </div>
+
+    <div class="navbar">
+      <ul class="navbar-list">
+        <li><a href="">BROWSE</a></li>
+        <li><a href="">FORUM</a></li>
+        <li><a href="">DOCS</a></li>
+        <li><a href="">TUTORIALS</a></li>
+        <li><a href="">NEWS</a></li>
+        <li><a href="">REPOMAKER</a></li>
+        <li><a href="">ISSUES</a></li>
+        <li><a href="">CONTRIBUTE</a></li>
+        <li><a href="">ABOUT</a></li>
+      </ul>
+    </div>
+
+    <div class="article-area">
+      <h1>What is F-Droid?</h1>
+      <p>F-Droid is an installable catalogue of FOSS (Free and Open Source Software) applications for the Android platform. The client makes it easy to browse, install, and keep track of updates on your device.</p>
+
+      <!-- Download and screenshot section -->
+      <div class="download_and_screenshot">
+
+        <!-- Download section -->
+        <div class="download">
+          <div class="div-button">
+            <button class="download-button">DOWNLOAD F-DROID</button>
+          </div>
+          <div class="pgp">
+            <a href="">PGP Signature</a>
+          </div>
+
+          <div class="qr-code">
+            <img src="./images/download-fdroid-qr.png" alt="fdroid qr image" height="200px" width="200px">
+          </div>
+        </div>
+
+        <!-- Screenshot section -->
+        <div class="screenshot">
+          <img src="./images/screenshot-fdroid.png" alt="">
+        </div>
+      </div>
+    </div>
+
+    <!--Sidebar -->
+    <div class="sidebar">
+      <div class="lang-selector-div">
+        <select class="language-selector" name="language-selector">
+          <option>EN</option>
+          <option>IT</option>
+          <option>ES</option>
+          <option>FR</option>
+        </select>
+      </div>
+
+      <hr>
+
+      <div class="find-app">
+        <h2>Find Apps</h2>
+        <div class="search-form">
+          <form action="">
+            <input type="text" name="app-name" placeholder="Type App name here">
+          </form>
+          <button class="search-button">SEARCH</button>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="donate">
+        <h2>Donate</h2>
+        <p>F-Droid is powered by your donations!</p>
+        <img src="./images/donate_image.png" alt="donation banner">
+        <ul class="bank_transfer_list">
+          <li><strong>Bank Transfer</strong></li>
+          <li>Name: F-Droid Limited</li>
+          <li>IBAN: GB92 BARC 2056 7893 4088 92</li>
+          <li>SWIFT: BARCGB22</li>
+        </ul>
+      </div>
+
+      <hr>
+
+      <div class="news">
+        <h2>News</h2>
+        <ul class="news_list">
+          <li><a href="">This Week in F-Droid, Week 21 May 25, 2018</a></li>
+          <li><a href="">This Week in F-Droid, Week 20 May 17, 2018</a></li>
+          <li><a href="">This Week in F-Droid, Week 19 May 11, 2018</a></li>
+          <li><a href="">This Week in F-Droid, Week 18 May 4, 2018</a></li>
+          <li><a href="">This Week in F-Droid Apr 27, 2018</a></li>
+        </ul>
+      </div>
+
+      <hr>
+
+      <div class="last_updated">
+        <h2>Last Updated</h2>
+        <!-- First Packet -->
+        <a href="">
+          <div class="package_icon">
+          <img src="https://f-droid.org/repo/icons-640/ryey.easer.73.png" width="40px" height="40px" alt="">
+          </div>
+          <div class="package_info">
+            <div class="package_name">
+              <p>Easer</p>
+            </div>
+            <div class="package_desc">
+              <p>Event-driven Android automation</p>
+            </div>
+          </div>
+        </a>
+
+
+        <!-- Second Packet -->
+        <a href="">
+          <div class="package_icon">
+          <img src="https://f-droid.org/repo/org.xbmc.kore/en-US/icon.png" width="40px" height="40px" alt="">
+          </div>
+          <div class="package_info">
+            <div class="package_name">
+              <p>Kore</p>
+            </div>
+            <div class="package_desc">
+              <p>Kore, Official Remote for Kodi</p>
+            </div>
+          </div>
+        </a>
+
+        <!-- Third Packet -->
+        <a href="">
+          <div class="package_icon">
+          <img src="https://f-droid.org/repo/icons-640/io.gitlab.allenb1.todolist.6.png" width="40px" height="40px" alt="">
+          </div>
+          <div class="package_info">
+            <div class="package_name">
+              <p>Taskkeeper</p>
+            </div>
+            <div class="package_desc">
+              <p>Keep track of to-does</p>
+            </div>
+          </div>
+        </a>
+
+
+      </div>
+
+      <hr>
+
+      <div class="latest_app last_updated">
+        <h2>Latest Apps</h2>
+        <!-- First Packet -->
+        <a href="">
+          <div class="package_icon">
+          <img src="https://f-droid.org/repo/icons-640/ryey.easer.73.png" width="40px" height="40px" alt="">
+          </div>
+          <div class="package_info">
+            <div class="package_name">
+              <p>Easer</p>
+            </div>
+            <div class="package_desc">
+              <p>Event-driven Android automation</p>
+            </div>
+          </div>
+        </a>
+
+
+        <!-- Second Packet -->
+        <a href="">
+          <div class="package_icon">
+          <img src="https://f-droid.org/repo/org.xbmc.kore/en-US/icon.png" width="40px" height="40px" alt="">
+          </div>
+          <div class="package_info">
+            <div class="package_name">
+              <p>Kore</p>
+            </div>
+            <div class="package_desc">
+              <p>Kore, Official Remote for Kodi</p>
+            </div>
+          </div>
+        </a>
+
+        <!-- Third Packet -->
+        <a href="">
+          <div class="package_icon">
+          <img src="https://f-droid.org/repo/icons-640/io.gitlab.allenb1.todolist.6.png" width="40px" height="40px" alt="">
+          </div>
+          <div class="package_info">
+            <div class="package_name">
+              <p>Taskkeeper</p>
+            </div>
+            <div class="package_desc">
+              <p>Keep track of to-does</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+    </div>
+
+  </div>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      alert("Hello my friend! This page is just a clone of f-droid.org home page, made just for fun.");
+    });
+  </script>
+</body>
+</html>
